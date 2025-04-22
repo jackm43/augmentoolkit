@@ -1,3 +1,3 @@
 pipeline_order:
-  - folder: "original"
+  - folder: "message_analyst"
     config: "config.yaml"
