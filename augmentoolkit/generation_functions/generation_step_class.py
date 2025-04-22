@@ -61,121 +61,100 @@ class GenerationStep:
         )
 
     async def generate(self, **kwargs):
-        # Current file directory
-        current_dir = os.path.dirname(os.path.abspath(__file__))
-
-        # Get the full path of the prompt file
-        ideal_path = os.path.join(
-            current_dir, "..", "..", self.prompt_folder, self.prompt_path
-        )
-        if os.path.exists(ideal_path):
-            full_prompt_path = ideal_path
-        else:
-            full_prompt_path = os.path.join(
+        try:
+            current_dir = os.path.dirname(os.path.abspath(__file__))
+            ideal_path = os.path.join(
+                current_dir, "..", "..", self.prompt_folder, self.prompt_path
+            )
+            full_prompt_path = ideal_path if os.path.exists(ideal_path) else os.path.join(
                 current_dir, "..", "..", self.default_prompt_folder, self.prompt_path
             )
 
-        with open(full_prompt_path, "r", encoding='utf-8') as pf:
-            prompt = pf.read()
+            try:
+                with open(full_prompt_path, "r", encoding='utf-8') as pf:
+                    prompt = pf.read()
+            except FileNotFoundError:
+                raise Exception(f"Prompt file not found at {full_prompt_path}")
+            except Exception as e:
+                raise Exception(f"Error reading prompt file: {str(e)}")
 
-        # Submit generation and return response, retrying as needed
-        times_tried = 0
-        if self.completion_mode:
-            prompt_formatted = safe_format(prompt, **kwargs)
-            while times_tried <= self.retries:
-                try:
-                    response, timeout = await self.engine_wrapper.submit_completion(
-                        prompt_formatted, self.sampling_params
-                    )
-                    filtered_response = re.search(self.regex, response).group(1)
-                    ret = self.output_processor(filtered_response)
-                    if self.return_input_too:
-                        return ret, prompt_formatted + filtered_response
-                    return ret, timeout
-                except Exception as e:
-                    # logging.error(f"Error in Generation Step: {e}")
-                    try:
-                        if not self.engine_wrapper.mode == "llamacpp":
-                            print("Response:")
-                            print(response)
-                    except:
-                        pass
-                    traceback.print_exc()
-                    times_tried += 1
-            raise Exception("Generation step failed -- too many retries!")
-        else:
+            times_tried = 0
+            response = None  # Initialize response variable
+            if self.completion_mode:
+                response = await self._handle_completion_mode(prompt, times_tried, **kwargs)
+            else:
+                response = await self._handle_chat_mode(prompt, times_tried, **kwargs)
+            return response
+
+        except Exception as e:
+            logging.error(f"Fatal error in generate(): {str(e)}")
+            raise
+
+    async def _handle_completion_mode(self, prompt, times_tried, **kwargs):
+        prompt_formatted = safe_format(prompt, **kwargs)
+        while times_tried <= self.retries:
+            try:
+                response, timeout = await self.engine_wrapper.submit_completion(
+                    prompt_formatted, self.sampling_params
+                )
+                filtered_response = re.search(self.regex, response).group(1)
+                ret = self.output_processor(filtered_response)
+                return (ret, prompt_formatted + filtered_response) if self.return_input_too else (ret, timeout)
+            except Exception as e:
+                self._log_completion_error(e, response)
+                times_tried += 1
+        raise Exception("Generation step failed -- too many retries!")
+
+    async def _handle_chat_mode(self, prompt, times_tried, **kwargs):
+        try:
             messages = yaml.safe_load(prompt)
-            new_messages = []
-            for message in messages:
-                try:
-                    new_messages.append(
-                        {
-                            "role": message["role"],
-                            "content": safe_format(message["content"], **kwargs),
-                        }
-                    )
-                except Exception as e:
-                    new_messages.append(
-                        {"role": message["role"], "content": message["content"]}
-                    )
-            messages = new_messages
+        except yaml.YAMLError as e:
+            raise Exception(f"Invalid YAML in prompt file: {str(e)}")
 
-            # messages = [{
-            #     "role": message["role"],
-            #     "content": safe_format(message["content"],**arguments)
-            #     }
-            #             for message in messages]
-            while times_tried <= self.retries:
-                try:
+        messages = self._format_messages(messages, **kwargs)
+        
+        while times_tried <= self.retries:
+            try:
+                messages = [{"role": m["role"], "content": m["content"].strip()} for m in messages]
+                response, timeout = await self.engine_wrapper.submit_chat(
+                    messages, self.sampling_params
+                )
+                ret = self.output_processor(response)
+                if self.return_input_too:
+                    return ret, yaml.dump(
+                        messages + [{"role": "assistant", "content": response, "timeout": timeout}],
+                        default_flow_style=False,
+                        allow_unicode=True
+                    )
+                return ret, timeout
+            except Exception as e:
+                self._log_chat_error(e, messages, response)
+                times_tried += 1
+        raise Exception("Generation step failed -- too many retries!")
 
-                    # strip whitespace added by yaml load
-                    messages = [
-                        {
-                            "role": message["role"],
-                            "content": message["content"].strip(),
-                        }
-                        for message in messages
-                    ]
-                    # print("\n\n\nBEGIN DEBUG")
-                    # print(messages)
-                    # print("END DEBUG\n\n\n")
-                    response, timeout = await self.engine_wrapper.submit_chat(
-                        messages, self.sampling_params
-                    )
-                    ret = self.output_processor(response)
-                    if self.return_input_too:
-                        return ret, yaml.dump(
-                            messages
-                            + [
-                                {
-                                    "role": "assistant",
-                                    "content": response,
-                                    "timeout": timeout,
-                                }
-                            ],
-                            default_flow_style=False,
-                            allow_unicode=True
-                        )
-                    return ret, timeout
-                except Exception as e:
-                    logging.error(f"Error in Generation Step: {e}")
-                    if self.completion_mode:
-                        print("Prompt:")
-                        print(prompt)
-                    else:
-                        print("Messages:")
-                        print(yaml.dump(messages, default_flow_style=False, allow_unicode=True))
-                    try:
-                        print("\n\nResponse:\n-----\n")
-                        print(response)
-                    except UnboundLocalError:
-                        print("No response to print")
-                        pass
-                    # if prompt_formatted:
-                    #     print(prompt_formatted)
-                    logging.error(
-                        f"Above prompt resulted in error, probably the model's fault: {e}"
-                    )
-                    traceback.print_exc()
-                    times_tried += 1
-            raise Exception("Generation step failed -- too many retries!")
+    def _format_messages(self, messages, **kwargs):
+        new_messages = []
+        for message in messages['messages']:
+            try:
+                new_messages.append({
+                    "role": message["role"],
+                    "content": safe_format(message["content"], **kwargs)
+                })
+            except Exception as e:
+                raise Exception(f"Failed to format message: {str(e)}")
+        return new_messages
+
+    def _log_completion_error(self, error, response):
+        logging.error(f"Error in completion mode: {str(error)}")
+        if not self.engine_wrapper.mode == "llamacpp":
+            logging.error(f"Response: {response}")
+        raise error
+
+    def _log_chat_error(self, error, messages, response):
+        logging.error(f"Error in chat mode: {str(error)}")
+        logging.error(f"Messages: {yaml.dump(messages, default_flow_style=False, allow_unicode=True)}")
+        try:
+            logging.error(f"Response: {response}")
+        except UnboundLocalError:
+            logging.error("No response available")
+        raise error
