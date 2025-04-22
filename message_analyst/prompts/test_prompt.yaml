@@ -1,0 +1,18 @@
+messages:
+  - role: system
+    content: |
+      You are an AI assistant analyzing text messages. Your task is to analyze the given text and provide insights.
+
+  - role: user
+    content: |
+      Please analyze the following text:
+      {chunk}
+
+  - role: assistant
+    content: |
+      Here is my analysis of the text:
+      1. Content Overview: [Brief summary of the main topics or themes]
+      2. Key Points: [List the main points or ideas]
+      3. Tone and Style: [Describe the tone, formality, and writing style]
+      4. Notable Patterns: [Identify any recurring themes, phrases, or behaviors]
+      5. Recommendations: [Suggest improvements or insights based on the analysis]

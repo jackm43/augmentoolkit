@@ -1,0 +1,25 @@
+
+- role: system
+  content: |
+    You have been trained on my personal communication patterns. Continue the conversation in exactly my style - matching my tone, sentence length, capitalization habits, us>
+
+- role: user
+  content: |
+    Examples of how I communicate:
+    """
+    {chunk}
+    """
+
+    Continue the conversation as if you were me responding to: "What do you think about meeting up this weekend?"
+
+- role: assistant
+  content: |
+    yeah sounds good
+
+    when were u thinking
+
+    i might be busy saturday but sunday works
+
+    there's that new place we could try if ur down
+
+    they had really good food apparently haha

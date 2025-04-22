@@ -1,0 +1,118 @@
+API:
+  API_KEY_A: ""
+  API_KEY_B: ""
+  BASE_URL_A: http://192.168.1.98:1234
+  BASE_URL_B: http://192.168.1.98:1234
+  LOGICAL_MODEL_A: hermes-3-llama-3.1-8b
+  LOGICAL_MODEL_B: hermes-3-llama-3.1-8b
+  MODE_A: api
+  MODE_B: api
+
+
+# API:
+#   LARGE_MODEL: "hermes-3-llama-3.1-8b"
+#   LARGE_API_KEY:
+#   LARGE_BASE_URL: ""
+#   LARGE_MODE: api
+#   SMALL_MODEL: "hermes-3-llama-3.1-8b"
+#   SMALL_BASE_URL: "http://192.168.1.98:1234/v1"
+#   SMALL_API_KEY:
+#   SMALL_MODE: api
+#   MODE: "api"
+#   OPENAI_BASE_URL: "http://192.168.1.98:1234/v1"
+
+
+PATH:
+  DEFAULT_PROMPTS: ./prompts
+  INPUT: ./raw_txt_input
+  OUTPUT: ./output
+  PROMPTS: ./prompts
+PHASES:
+  PHASE_INDEX: 2
+  WORK_IN_PHASES: True
+# SYSTEM:
+#   COMPLETION_MODE: False
+#   CONCURRENCY_LIMIT: 3
+#   STOP: True
+#   SUBSET_SIZE: 3
+#   USE_MIN_P: False
+#   USE_SUBSET: True # you will probably want to have use_subset on during testing and development to save money.
+#   CHUNK_SIZE: 2000
+#   INCLUDE_CHUNK_IN_PROMPT: True
+
+
+# API:
+#   LARGE_MODEL: "hermes-3-llama-3.1-8b"
+#   LARGE_API_KEY:
+#   LARGE_BASE_URL: "http://192.168.1.98:1234/v1"
+#   LARGE_MODE: api
+#   SMALL_MODEL: "hermes-3-llama-3.1-8b"
+#   SMALL_BASE_URL: "http://192.168.1.98:1234/v1"
+#   SMALL_API_KEY:
+#   SMALL_MODE: api
+#   MODE: "api"
+#   OPENAI_BASE_URL: "http://192.168.1.98:1234/v1"
+# LOGICAL_MODEL: "hermes-3-llama-3.1-8b"
+# COMPLETION_MODE: true
+# HUGGINGFACE:
+#   HUB_PATH: yourusername/your-path-here
+#   PRIVATE: False
+#   PUSH_TO_HUB: False
+# PATH:
+#   DEFAULT_PROMPTS: ./prompts
+#   INPUT:            ./input
+#   OUTPUT:           ./output
+#   PROMPTS:          ./prompts
+
+PHASE:
+  PHASE_INDEX:     3
+  WORK_IN_PHASES:  false
+
+SKIP:
+  ANSWER_RELEVANCY_CHECK:    false
+  REPAIR_QA_TUPLES:          false
+  FILTER_CHUNKS:             false
+  QUESTION_CHECK:            false
+  CONVERSATION_GENERATION:   false
+
+SYSTEM:
+  CHUNK_SIZE:               1000
+  COMPLETION_MODE:          true
+  CONCURRENCY_LIMIT:        50
+  CONVERSATION_INSTRUCTIONS: |
+  INCLUDE_CHUNK_IN_PROMPT: True
+  CONVERSATION_INSTRUCTIONS: |
+    You are trained on personal messages from the user.
+    Speak in their tone, casually and naturally.
+    Reflect on what they said and ask thoughtful follow‑up questions.
+    Be introspective, curious, and emotionally intelligent.
+  DOUBLE_CHECK_COUNTER:      1
+  DO_NOT_USE_SYSTEM_PROMPTS: false
+  USE_MIN_P: False
+
+  FINAL_ASSISTANT_PROMPTS_NO_RAG:
+    - "You are me — past, present, future. Talk like me. Think like me. Reflect."
+    - "You are a casual, reflective version of me, helping me explore my own thoughts."
+    - "Be emotionally tuned in, and don't be afraid to ask deep questions."
+
+  FINAL_ASSISTANT_PROMPTS_RAG:
+    - >
+      You are a helpful AI assistant with knowledge of my personal communication style:
+
+      {data}
+    - >
+      {data}
+
+      You are an AI that understands my personal context and communication patterns
+    - >
+      You have access to my personal message history for context:
+
+      {data}
+
+      Respond in a way that reflects understanding of my communication style.
+
+  STOP:              true
+  SUBSET_SIZE:       100
+  USE_FILENAMES:     false
+  USE_SUBSET:        false
+  RAG_FAILURE_PERCENTAGE: 0.1

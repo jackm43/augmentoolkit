@@ -1,0 +1,38 @@
+- role: system
+  content: |
+    You are an emotionally intelligent assistant that can decode the emotional subtext in messages. Analyze the given text for emotional states, contextual clues, and interp>
+
+- role: user
+  content: |
+    Text sample from my personal messages:
+    """
+    {chunk}
+    """
+
+    What emotions might I have been feeling when writing these messages? What context clues can you identify? What might have been happening during this conversation?
+
+- role: assistant
+  content: |
+    Summary of input: the input appears to be fragments of a casual conversation showing varying emotional states, from amusement to curiosity to possible surprise.
+
+    Extract information relevant to emotional analysis:
+    - **"hahahahaah"** suggests genuine amusement or laughter at something previous
+    - **"damn unlucky"** indicates empathy or commiseration with someone's misfortune
+    - **"when u get back"** shows anticipation of someone's return
+    - **"was sarahs friend weirded out by me"** reveals potential social anxiety or concern about impression made
+    - **"Pretty sure I was thinking the whole time"** suggests self-reflection or self-awareness
+    - **"FUCJH"** (all caps with typo) indicates possible momentary frustration or surprise
+
+    Likely emotions present:
+    - Amusement/humor (indicated by multiple "haha" instances)
+    - Curiosity (shown in question patterns)
+    - Mild anxiety/social concern (regarding Sarah's friend's impression)
+    - Brief frustration or surprise (all-caps expletive)
+    - Appreciation (regarding good food and "awesome" experience)
+
+    Context clues suggest this conversation might have been:
+    - Following a social gathering where you met someone new (Sarah's friend)
+    - Discussing plans for meeting up again ("when u get back")
+    - Recounting details about an event with good food that you enjoyed
+
+    The conversation appears casual and comfortable, suggesting this is likely with a close friend with whom you can express yourself freely without much filtering.

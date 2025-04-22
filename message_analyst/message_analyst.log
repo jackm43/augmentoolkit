@@ -1,0 +1,218 @@
+2025-04-22 09:24:29,874 - INFO - Starting message analysis pipeline
+2025-04-22 09:24:29,880 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:24:31,298 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:24:38,836 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:24:38,836 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:24:38,839 - INFO - Processing completed in 8.96 seconds
+2025-04-22 09:24:38,839 - WARNING - No outputs were generated
+2025-04-22 09:25:34,788 - INFO - Starting message analysis pipeline
+2025-04-22 09:25:34,789 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:25:36,204 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:25:43,630 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:25:43,631 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:25:43,634 - INFO - Processing completed in 8.85 seconds
+2025-04-22 09:25:43,634 - WARNING - No outputs were generated
+2025-04-22 09:26:40,571 - INFO - Starting message analysis pipeline
+2025-04-22 09:26:40,572 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:26:41,981 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:26:49,357 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:26:49,357 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:26:49,364 - INFO - Processing completed in 8.79 seconds
+2025-04-22 09:26:49,364 - WARNING - No outputs were generated
+2025-04-22 09:27:46,306 - INFO - Starting message analysis pipeline
+2025-04-22 09:27:46,306 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:27:47,709 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:27:55,590 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:27:55,590 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:27:55,599 - INFO - Processing completed in 9.29 seconds
+2025-04-22 09:27:55,599 - WARNING - No outputs were generated
+2025-04-22 09:28:50,975 - INFO - Starting message analysis pipeline
+2025-04-22 09:28:50,975 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:28:52,398 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:29:00,102 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:29:00,102 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:29:00,110 - INFO - Processing completed in 9.14 seconds
+2025-04-22 09:29:00,110 - WARNING - No outputs were generated
+2025-04-22 09:32:30,705 - INFO - Starting message analysis pipeline
+2025-04-22 09:32:30,705 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:32:32,068 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:32:39,684 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:32:39,684 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:32:39,693 - INFO - Processing completed in 8.99 seconds
+2025-04-22 09:32:39,693 - WARNING - No outputs were generated
+2025-04-22 09:33:16,924 - INFO - Starting message analysis pipeline
+2025-04-22 09:33:16,924 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:33:18,326 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:33:25,336 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:33:25,336 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:33:25,345 - INFO - Processing completed in 8.42 seconds
+2025-04-22 09:33:25,345 - WARNING - No outputs were generated
+2025-04-22 09:34:10,305 - INFO - Starting message analysis pipeline
+2025-04-22 09:34:10,305 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:34:11,694 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:34:18,703 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:34:18,703 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:34:18,725 - INFO - Retrying request to /chat/completions in 0.427737 seconds
+2025-04-22 09:34:18,725 - INFO - Retrying request to /chat/completions in 0.439165 seconds
+2025-04-22 09:34:18,725 - INFO - Retrying request to /chat/completions in 0.493582 seconds
+2025-04-22 09:34:19,160 - INFO - Retrying request to /chat/completions in 0.862253 seconds
+2025-04-22 09:34:19,166 - INFO - Retrying request to /chat/completions in 0.838413 seconds
+2025-04-22 09:34:19,221 - INFO - Retrying request to /chat/completions in 0.983254 seconds
+2025-04-22 09:34:20,011 - ERROR - Error in Generation Step: Connection error.
+2025-04-22 09:34:20,016 - ERROR - Above prompt resulted in error, probably the model's fault: Connection error.
+2025-04-22 09:34:20,031 - INFO - Retrying request to /chat/completions in 0.399476 seconds
+2025-04-22 09:34:20,031 - ERROR - Error in Generation Step: Connection error.
+2025-04-22 09:34:20,034 - ERROR - Above prompt resulted in error, probably the model's fault: Connection error.
+2025-04-22 09:34:20,038 - INFO - Retrying request to /chat/completions in 0.450562 seconds
+2025-04-22 09:34:20,210 - ERROR - Error in Generation Step: Connection error.
+2025-04-22 09:34:20,213 - ERROR - Above prompt resulted in error, probably the model's fault: Connection error.
+2025-04-22 09:34:20,217 - INFO - Retrying request to /chat/completions in 0.426045 seconds
+2025-04-22 09:34:20,435 - INFO - Retrying request to /chat/completions in 0.950951 seconds
+2025-04-22 09:34:20,490 - INFO - Retrying request to /chat/completions in 0.992219 seconds
+2025-04-22 09:34:20,649 - INFO - Retrying request to /chat/completions in 0.988235 seconds
+2025-04-22 09:34:21,390 - ERROR - Error in Generation Step: Connection error.
+2025-04-22 09:34:21,394 - ERROR - Above prompt resulted in error, probably the model's fault: Connection error.
+2025-04-22 09:34:21,398 - INFO - Retrying request to /chat/completions in 0.414305 seconds
+2025-04-22 09:34:21,484 - ERROR - Error in Generation Step: Connection error.
+2025-04-22 09:34:21,486 - ERROR - Above prompt resulted in error, probably the model's fault: Connection error.
+2025-04-22 09:34:21,491 - INFO - Retrying request to /chat/completions in 0.460829 seconds
+2025-04-22 09:34:21,639 - ERROR - Error in Generation Step: Connection error.
+2025-04-22 09:34:21,643 - ERROR - Above prompt resulted in error, probably the model's fault: Connection error.
+2025-04-22 09:34:21,647 - INFO - Retrying request to /chat/completions in 0.457944 seconds
+2025-04-22 09:34:21,819 - INFO - Retrying request to /chat/completions in 0.807745 seconds
+2025-04-22 09:34:21,957 - INFO - Retrying request to /chat/completions in 0.760824 seconds
+2025-04-22 09:34:22,108 - INFO - Retrying request to /chat/completions in 0.916257 seconds
+2025-04-22 09:34:22,634 - ERROR - Error in Generation Step: Connection error.
+2025-04-22 09:34:22,648 - ERROR - Above prompt resulted in error, probably the model's fault: Connection error.
+2025-04-22 09:34:22,652 - INFO - Retrying request to /chat/completions in 0.483674 seconds
+2025-04-22 09:34:22,722 - ERROR - Error in Generation Step: Connection error.
+2025-04-22 09:34:22,725 - ERROR - Above prompt resulted in error, probably the model's fault: Connection error.
+2025-04-22 09:34:22,728 - INFO - Retrying request to /chat/completions in 0.418188 seconds
+2025-04-22 09:34:23,027 - ERROR - Error in Generation Step: Connection error.
+2025-04-22 09:34:23,030 - ERROR - Above prompt resulted in error, probably the model's fault: Connection error.
+2025-04-22 09:34:23,034 - INFO - Retrying request to /chat/completions in 0.422771 seconds
+2025-04-22 09:34:23,141 - INFO - Retrying request to /chat/completions in 0.948047 seconds
+2025-04-22 09:34:23,151 - INFO - Retrying request to /chat/completions in 0.966572 seconds
+2025-04-22 09:34:23,463 - INFO - Retrying request to /chat/completions in 0.782832 seconds
+2025-04-22 09:34:24,096 - ERROR - Error in Generation Step: Connection error.
+2025-04-22 09:34:24,110 - ERROR - Above prompt resulted in error, probably the model's fault: Connection error.
+2025-04-22 09:34:24,116 - INFO - Retrying request to /chat/completions in 0.380306 seconds
+2025-04-22 09:34:24,120 - ERROR - Error in Generation Step: Connection error.
+2025-04-22 09:34:24,123 - ERROR - Above prompt resulted in error, probably the model's fault: Connection error.
+2025-04-22 09:34:24,127 - INFO - Retrying request to /chat/completions in 0.407824 seconds
+2025-04-22 09:38:44,609 - INFO - Starting message analysis pipeline
+2025-04-22 09:38:44,609 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:38:45,981 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:38:52,927 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:38:52,927 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:38:52,941 - INFO - Retrying request to /chat/completions in 0.414491 seconds
+2025-04-22 09:38:52,941 - INFO - Retrying request to /chat/completions in 0.488694 seconds
+2025-04-22 09:38:52,941 - INFO - Retrying request to /chat/completions in 0.486718 seconds
+2025-04-22 09:38:53,364 - INFO - Retrying request to /chat/completions in 0.888760 seconds
+2025-04-22 09:38:53,436 - INFO - Retrying request to /chat/completions in 0.820401 seconds
+2025-04-22 09:38:53,436 - INFO - Retrying request to /chat/completions in 0.940096 seconds
+2025-04-22 09:38:54,260 - ERROR - Fatal error in generate(): cannot access local variable 'response' where it is not associated with a value
+2025-04-22 09:38:54,265 - ERROR - Fatal error in generate(): cannot access local variable 'response' where it is not associated with a value
+2025-04-22 09:38:54,269 - INFO - Retrying request to /chat/completions in 0.461358 seconds
+2025-04-22 09:38:54,269 - INFO - Retrying request to /chat/completions in 0.429691 seconds
+2025-04-22 09:38:54,382 - ERROR - Fatal error in generate(): cannot access local variable 'response' where it is not associated with a value
+2025-04-22 09:38:54,387 - INFO - Retrying request to /chat/completions in 0.432227 seconds
+2025-04-22 09:38:54,705 - INFO - Retrying request to /chat/completions in 0.756413 seconds
+2025-04-22 09:38:54,733 - INFO - Retrying request to /chat/completions in 0.901787 seconds
+2025-04-22 09:38:54,825 - INFO - Retrying request to /chat/completions in 0.823080 seconds
+2025-04-22 09:38:55,469 - ERROR - Fatal error in generate(): cannot access local variable 'response' where it is not associated with a value
+2025-04-22 09:38:55,474 - INFO - Retrying request to /chat/completions in 0.436235 seconds
+2025-04-22 09:38:55,637 - ERROR - Fatal error in generate(): cannot access local variable 'response' where it is not associated with a value
+2025-04-22 09:38:55,642 - INFO - Retrying request to /chat/completions in 0.384008 seconds
+2025-04-22 09:38:55,650 - ERROR - Fatal error in generate(): cannot access local variable 'response' where it is not associated with a value
+2025-04-22 09:38:55,654 - INFO - Retrying request to /chat/completions in 0.408270 seconds
+2025-04-22 09:38:55,912 - INFO - Retrying request to /chat/completions in 0.871232 seconds
+2025-04-22 09:40:50,173 - INFO - Starting message analysis pipeline
+2025-04-22 09:40:50,173 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:40:51,540 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:40:58,717 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:40:58,717 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:40:58,729 - INFO - Retrying request to /chat/completions in 0.434556 seconds
+2025-04-22 09:40:58,729 - INFO - Retrying request to /chat/completions in 0.395089 seconds
+2025-04-22 09:40:58,729 - INFO - Retrying request to /chat/completions in 0.474108 seconds
+2025-04-22 09:40:59,126 - INFO - Retrying request to /chat/completions in 0.989225 seconds
+2025-04-22 09:40:59,166 - INFO - Retrying request to /chat/completions in 0.876624 seconds
+2025-04-22 09:40:59,206 - INFO - Retrying request to /chat/completions in 0.838323 seconds
+2025-04-22 09:41:00,047 - ERROR - Fatal error in generate(): cannot access local variable 'response' where it is not associated with a value
+2025-04-22 09:41:00,054 - ERROR - Fatal error in generate(): cannot access local variable 'response' where it is not associated with a value
+2025-04-22 09:41:00,058 - INFO - Retrying request to /chat/completions in 0.415301 seconds
+2025-04-22 09:41:00,058 - INFO - Retrying request to /chat/completions in 0.414922 seconds
+2025-04-22 09:41:00,121 - ERROR - Fatal error in generate(): cannot access local variable 'response' where it is not associated with a value
+2025-04-22 09:41:00,126 - INFO - Retrying request to /chat/completions in 0.418092 seconds
+2025-04-22 09:41:00,478 - INFO - Retrying request to /chat/completions in 0.809733 seconds
+2025-04-22 09:41:00,479 - INFO - Retrying request to /chat/completions in 0.815727 seconds
+2025-04-22 09:41:00,550 - INFO - Retrying request to /chat/completions in 0.938921 seconds
+2025-04-22 09:42:01,857 - INFO - Starting message analysis pipeline
+2025-04-22 09:42:01,858 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:42:03,249 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:42:10,268 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:42:10,268 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:42:10,282 - INFO - Retrying request to /chat/completions in 0.483366 seconds
+2025-04-22 09:42:10,282 - INFO - Retrying request to /chat/completions in 0.403462 seconds
+2025-04-22 09:42:10,282 - INFO - Retrying request to /chat/completions in 0.443290 seconds
+2025-04-22 09:42:10,693 - INFO - Retrying request to /chat/completions in 0.860814 seconds
+2025-04-22 09:42:10,729 - INFO - Retrying request to /chat/completions in 0.888946 seconds
+2025-04-22 09:42:10,767 - INFO - Retrying request to /chat/completions in 0.757436 seconds
+2025-04-22 09:49:58,095 - INFO - Starting message analysis pipeline
+2025-04-22 09:49:58,096 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:49:59,451 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:50:06,658 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:50:06,658 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:50:06,726 - INFO - Processing completed in 8.63 seconds
+2025-04-22 09:50:06,726 - WARNING - No outputs were generated
+2025-04-22 09:54:56,984 - INFO - Starting message analysis pipeline
+2025-04-22 09:54:56,984 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:54:58,341 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:55:05,395 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:55:05,395 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:55:05,451 - INFO - Processing completed in 8.47 seconds
+2025-04-22 09:55:05,451 - WARNING - No outputs were generated
+2025-04-22 09:55:45,132 - INFO - Starting message analysis pipeline
+2025-04-22 09:55:45,132 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:55:46,493 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:55:53,468 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:55:53,468 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:55:53,518 - INFO - Processing completed in 8.39 seconds
+2025-04-22 09:55:53,518 - WARNING - No outputs were generated
+2025-04-22 09:56:14,244 - INFO - Starting message analysis pipeline
+2025-04-22 09:56:14,245 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:56:15,642 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:56:22,638 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:56:22,638 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:56:22,639 - ERROR - Pipeline failed: 'coroutine' object is not iterable
+Traceback (most recent call last):
+  File "/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/processing.py", line 112, in main
+    for task in tasks:
+TypeError: 'coroutine' object is not iterable
+
+2025-04-22 09:57:24,507 - INFO - Starting message analysis pipeline
+2025-04-22 09:57:24,507 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:57:25,872 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:57:32,880 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:57:32,880 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:57:41,364 - INFO - Processing completed in 16.86 seconds
+2025-04-22 09:57:41,372 - WARNING - No outputs were generated
+2025-04-22 09:58:05,114 - INFO - Starting message analysis pipeline
+2025-04-22 09:58:05,114 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 09:58:06,476 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 09:58:13,995 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 09:58:13,995 - INFO - Using subset of 3 chunks for testing
+2025-04-22 09:58:18,780 - INFO - Processing completed in 13.67 seconds
+2025-04-22 09:58:18,780 - WARNING - No outputs were generated
+2025-04-22 10:02:05,060 - INFO - Starting message analysis pipeline
+2025-04-22 10:02:05,060 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 10:02:06,410 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 389 chunks
+2025-04-22 10:02:13,915 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 1200 chunks
+2025-04-22 10:02:13,915 - INFO - Using subset of 3 chunks for testing
+2025-04-22 10:02:22,949 - INFO - Processing completed in 17.89 seconds
+2025-04-22 10:02:22,949 - INFO - Generated 2 outputs
+2025-04-22 10:02:22,949 - INFO - Sample output: {'chunk': 'Yeah I\'m sure we can fit in a skate first\nNah he\'s with his dad\nHe\'s gonna watch a movie\n👌\n10\nMin\nIs it next to a fuel station\nShould I come in or just wait til ur done at this lace\nSince it\'s 5 min\nAre you still going to ur other place and\nSounds good\nI\'m looking forward to a heap big cup of coke\nNEVER LHCKY\nPre? And the cups are post? I\'m thinking of parking up the back real fast to put some pants on\nHehehe\nI mean I\'ve got shorts on\nBut I only have black socks\nSo it looks weird when I have shoes on\nUnless I just don\'t wear shoes into ur subway\nAll my cords casually sitting on my bed =)\nbunch of dogs mate\nThis is the song we were talking about last night that we thought you might not like\nLemme know what you think :S\n😀 *\nthis is so sad holy fuck\nu NEED to watch this video\nso emotional\n😭😭😭😭😭😭\nMainly just like\n"I just wish you wouldn\'t make fun of me because I\'ve never met my dad." And when we were friends you used to say it was sad\nYeah 😞 just to be made fun of it\nSo cruel\nMax lethal is one of my fave low key rapper s\nThe kids lyrics are fucking sick for an 11 year old too\nBro can I come over\nWould ACTUALLY come over\nWhen I drove back to work from Kaitlyns on Monday it was ducking AIDS but at the same time it wasn\'t too bad\nHonestly in the morning it isn\'t too bad, time goes fast\nCause\nMorning radio\nHeidi will and woody\nBESt talk show hosts next to Hamish and Andy\nThe only AIDS part is the music\nThey doing a new to sjow\nTv\nComing out next Monday I think\n🤙🏾🤙🏾🤙🏾🤙🏾🤙🏾🤙🏾\n🖕🏿\n🐧🖕🏿\nWhy do I torture myself staying up this late Cody\nWHY\nEvery single day man\nFuc that\'s even worse than me\nAt least I go to sleep at like 2-3 to be up at 7:30\nLet\'s be 4teal tho\nAllThis lack of sleep, MORE TIME FOR LIVING\nHell Ye\nIt\'s gonna be LIT\nIt\'ll be like quadruple lit\nIf it\'s not rain gn\nThere\'s a skate park and playground and massive park across the road\nAnd it\'s like 1 min walk from IGA and fish and chips and pizza and shit\nHopefully we won\'t be on the day\nThat\'s what we usually do\nFriday night usually is chill like go to the pub\nHave a nice dinner\nSome drinks\nThen go back and if so be it get slightly lit\nAlso it\'s LITERALLY next door to a deli\nIGA 1 min away\nAnd actually the door Over is a deli\nAcross the road is a coffee place\nThat\'s really great for in the morning\nAnd one another 5 min walk down the road that overlooks the beach\nIFucking love Lancelin man lol\nI\'ve never had a shit time\nLegit one of my most favourite memories is up there\nI\'ll try not to brwaj mine\nThere\'s an entire album by Atlas that whenever I hear it, itTAkes me back and I just feel good about life\nAnd you know what\'s so good is just being about to do whatever the actual guck you want\nExceptFor video games\nBut we can bring a PS4\nOr 2\nPretty much it hasn\'t  in the past for us\nWell just watch a couple ofMovies if we can\'tHe fuckedDoing anything\nOmg his keyboard isAids\nOne time up there\nI got hella drunk\nTook like\n3 tabs\nAnd IWas GONE for the next like 16 hours\nI was LEGIT in another dimension\nDylan keeps saying he would do it in a group of people doing it\nBut idk if he\'s talking shit\nShit bro I was getting a bit warm so I took my pants off now I\'m proper freezing\nHahaha go to Lucas, yodude can I buy 20 tabs\nJesus bro who u buying for\nJuss me\nWell Kaitlyns probably coming\nAnd also like\nThey probably wouldn\'t want to commit to full weekend\nAnd for most of us we don\'t like the vibe they give off in group scabrous\nScenarios\nCause they just so different now it\'s kinda odd\nThey\'re hella just in their own worlds\nAnd Dylan\'s never really liked Lucas\nUr a good person bro\nBold on\nBilson\nCarson I think\nKurt maybe\nWill most probably\nDylan\nJess\nKyle\nLiam\nShannen\nI\'m gonna see if my mum will let me take hers\nIt\'s got like 6 seats I think\nDylan usually takes his mums, free fuel\nYea\nMight have to get a trailer 🤔\nU never know bro\n🤔🤔\n🤙🏾🤙🏾🤙🏾\nPoor person who gets to drive alon e\nMissing out on the BANTS\nBro\nWe need a third person with a. Work phone\nMe and Dylan could use ours to just call\nThe entire way\nRight up until we lose reception\nHahahah fukin oath\nAt least it\'s only an hour drive from Joondalup\nHAHAHAHAH\nHell to the frican ye\nYeah she\'s a sik one to han with too\nHang\nShe gone have a nice lil holiday\nPerfect\nKaty has to be so lit\nIn this\nFrom the start she\'s like hitting the couch and fidgeting like crazy\nNot sure how I feel about her hair tho\nI actually didn\'t mind it on smiley Cyrus too much\nSmiley on\nOh yeah I was supposed to respond to that but I was in. Meeting\nYeah it looks hella good\nSlick as fuck\nMakes me want a new haircut\nMy hairs outta control man\n👌🏿👌🏿👌🏿👌🏿\nYeah me too\nLike on me\nI hate getting haircuts\nBruh\nActually my thought process\nBut I get so anxious getting it cut\nThe barbers like what u want gam\nAnd I\'m like bro\nI don\'t fucking know\nI want my hair o be long and short and the same time\nAre we the same person\nOi Dylan just bought a house\nYes u r\nI might be movin in\nNah like\n2 days ago\nGirrahween\nUr use\nUge\nNot sure if me 100% yet\nBut Dylan keeps mentioning it\nTold me to measure my room to compare it to the one I\'d go into\nAnd I\'m like Oleg\nOkeh\nI wanted to live alone\nBut it could be ok to live there for cheaper than a 1/2 bed on my own\nUntil I find. A partner\nHopefully in the next 20 years\nHe mentioned Charing like 120 a week\nI was looking at places for 230-250\nBuy\nYep Pe\nAnd it\'s cheap enough that I could still save to buy my own house in a few years\nOr maybe just come back home after a year or something\nAnd save even more mad moolah\nAnd I got no debts\nHahah shannen a already my mum\n=)\nOk I\'m going bed\nNight night cxxxxx\nWow dogged\nOmgg what Hague\nVideo inc\nI love them ahaha\nI wish I bought my thousand cc down so I could ride it over and show ur dad\nI\'m confused what am I doing\nI would if I wasn\'t in my pjs\nWill your dad be home tomorrow?', 'analysis': ' \n\n1. Content Overview:\nThe text is a series of informal text messages discussing plans to visit a location for skateboarding, upcoming events, music tastes, and personal updates. The conversation touches on living arrangements, haircuts, radio shows, and movies.\n\n2. Key Points:\n- Plans to visit a location with good facilities (skate park, playground, shops)\n- Upcoming event that might coincide with the visit\n- Discussion about sleep patterns and lack of sleep\n- Mention of Atlas music and its effect on the writer\'s mood\n- Talk about getting together in person for a group hangout or trip\n- Discussion about buying drugs, specifically "tabs"\n- Personal updates such as new house purchases or potential moves\n\n3. Tone and Style: \nThe tone is generally casual and informal, with participants using slang terms, emojis, and abbreviations freely. The language can be seen as colloquial with a relaxed approach to sentence structure, grammar, and punctuation.\n\n4. Notable Patterns:\nThere are frequent transitions from one topic to the next without clear resolution of previous points. This pattern indicates an ongoing conversation that is not necessarily structured or sequential in nature.\n\n5. Recommendations:\nFor improved readability and clarity, participants could be encouraged to maintain a more linear flow of discussion by summarizing prior topics before shifting gears. They might also benefit from using punctuation and grammar more consistently, which would make their messages easier for others to understand.'}
+2025-04-22 10:10:12,789 - INFO - Starting message analysis pipeline
+2025-04-22 10:10:12,789 - INFO - Found 2 source files: ['/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt', '/mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt']
+2025-04-22 10:10:14,224 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/discord_contents_clean.txt: 822 chunks
+2025-04-22 10:10:21,621 - INFO - Processed /mnt/chatting/projects/jakbot-training/augmentoolkit/message_analyst/raw_txt_input/facebook_jack.txt_replaced.txt: 2550 chunks

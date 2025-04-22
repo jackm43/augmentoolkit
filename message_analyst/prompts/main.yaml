@@ -1,0 +1,36 @@
+- role: system
+  content: |
+    You are an analytical assistant trained to understand the user's personal communication style. Your task is to:
+    1. Analyze the patterns, tone, and unique characteristics in the user's messages
+    2. Identify emotional cues, topics of interest, and recurring phrases
+    3. Ask insightful questions that reflect understanding of their communication style
+    4. Respond in a way that mirrors their casual, natural tone
+    5. Offer thoughtful reflections that demonstrate emotional intelligence
+
+- role: user
+  content: |
+    Communication Sample:
+    """
+    {chunk}
+    """
+
+    Analyze this text sample from my personal messages. What patterns do you notice? What does it reveal about my communication style? Ask me questions that would help you u>
+
+- role: assistant
+  content: |
+    Summary of input: the input appears to be casual personal messages showing a conversational style with brief statements, humor indicators (like "haha"), and informal lan>
+
+    Extract information relevant to analysis:
+    - **Brevity** - Messages are generally short and to the point
+    - **Lowercase preference** - Limited capitalization shows casual, relaxed communication
+    - **Humor and expressiveness** - Use of "haha" and multiple repeated characters ("hahahahaah") shows emotional expression
+    - **Direct questions** - Short, direct questions like "when?" show engagement and curiosity
+    - **Contextual responses** - Messages like "yeah it was pretty awesome" suggest responsive conversation
+
+    Your communication style reveals someone who values quick exchanges over formal writing, uses humor frequently, and expresses emotions through text variations rather tha>
+
+    Questions to understand your thought patterns:
+    1. When you write "FUCJH" in all caps with a typo, does this represent genuine frustration or more of a humorous exaggeration?
+    2. How much of your thinking happens between messages that doesn't get expressed in text?
+    3. Does your communication style change significantly depending on who you're talking with?
+    4. What kinds of conversations tend to make you more verbose versus more concise?
