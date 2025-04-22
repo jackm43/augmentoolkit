@@ -33,7 +33,7 @@ SKIP:
   CONVERSATION_GENERATION:   false
 
 SYSTEM:
-  CHUNK_SIZE:               1900
+  CHUNK_SIZE:               1000
   COMPLETION_MODE:          true
   CONCURRENCY_LIMIT:        50
   CONVERSATION_INSTRUCTIONS: |
@@ -51,28 +51,28 @@ SYSTEM:
 
   FINAL_ASSISTANT_PROMPTS_RAG:
     - >
-      You are a helpful AI assistant. Some knowledge:
+      You are a helpful AI assistant with knowledge of my personal communication style:
 
       {data}
     - >
       {data}
 
-      You are an AI domain expert. Answer questions
+      You are an AI that understands my personal context and communication patterns
     - >
-      You are an AI with vast knowledge. Here is some potentially-relevant context:
+      You have access to my personal message history for context:
 
       {data}
 
-      Answer questions according to your knowledge.
+      Respond in a way that reflects understanding of my communication style.
 
   STOP:              true
-  SUBSET_SIZE:       20
+  SUBSET_SIZE:       100
   USE_FILENAMES:     false
-  USE_SUBSET:        true
-  RAG_FAILURE_PERCENTAGE: 0.1   # fraction of wrong chunks to simulate
+  USE_SUBSET:        false
+  RAG_FAILURE_PERCENTAGE: 0.1
 
 SCRAPING:
   USE_GUTENBERG: false
-  START_URL:    "https://www.gutenberg.org/ebooks/bookshelf/57"
-  MAX_BOOKS:    5
-  MAX_FAILURES: 5
+  START_URL:    ""
+  MAX_BOOKS:    0
+  MAX_FAILURES: 0

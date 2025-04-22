@@ -236,10 +236,6 @@ async def main():
     from tqdm import tqdm
     import asyncio
 
-    if "localhost" or "127.0.0." in LARGE_BASE_URL or "localhost" or "127.0.0." in SMALL_BASE_URL:
-        print("\n\nWarning: Local generation can be slow if your computer is not powerful enough. It may be most cost/time effective to rent a cloud GPU. However if you have a good computer you can make progress; I know a guy who used a 2xA6000 rig and waited a while and created a good-sized dataset.")
-
-
     if SKIP_FILTER_CHUNKS:
         print("Skipping chunk filtering")
         if USE_SUBSET:
